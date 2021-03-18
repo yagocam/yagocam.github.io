@@ -16,13 +16,40 @@
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
 
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      h2 
+      {
+        letter-spacing: initial;
+      }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+      }
+      .alinhado
+      {
+        text-align: justify;
+
       }
 
       @media (min-width: 768px) {
@@ -40,7 +67,7 @@
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
+  <body class="d-flex h-200 text-center text-white bg-dark">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
@@ -49,8 +76,8 @@
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link" href="index.html">Principal</a>
         <a class="nav-link active" aria-current="page" href="#">Sobre</a>
-        <a class="nav-link" href="#">Habilidades</a>
-        <a class="nav-link" href="#">Projetos</a>
+        <a class="nav-link" href="habilidades.html">Habilidades</a>
+        <a class="nav-link" href="contato.html">Contato</a>
       </nav>
     </div>
   </header>
@@ -58,14 +85,36 @@
   <main class="px-3">
     <h1>Quem sou eu?</h1>
     <img src="https://avatars.githubusercontent.com/u/50174808?s=460&u=9b3b681e907f1e89d1f2c9e69acc53b8d8fe1b6f&v=4" width="300">
-    <p class="lead">Curso ciência da computação na Universidade de Fortaleza (UNIFOR) desde 2018. Tento adquirir o máximo de conhecimento possível e aplicar no cotidiano,não apenas técnicas de programação mas também todo o conhecimento que aprendo durante minha vida para me tornar uma pessoa e profissional melhor a cada dia. </p> <br>
+    <p class="alinhado">Olá, me chamo Yago, e curso ciência da computação na Universidade de Fortaleza (UNIFOR) desde 2019  . Meu objetivo é alcançar o máximo de conhecimento possível e aplicar no cotidiano, não apenas técnicas de programação mas também todo o aprendizado adquirido durante minha vida para melhorar como pessoa e como um profissional a cada dia. </p> <br>
    
-      <h2>Formação acadêmica</h2>
+      <h1>Formação acadêmica</h1><br>
+      <span>
+        
+        <h2>2019  <img src="https://cdn.discordapp.com/attachments/580898471230439449/821476889167921202/graduation-hat-png.png" height="60" width="60"></h2>
+        <p class="lead">
+          Graduação em andamento em Ciência da Computação.<br>
+          Universidade de Fortaleza,UNIFOR,Brasil.<br>
+        </p>
+        <h2>2012-2018 <img src="https://cdn.discordapp.com/attachments/580898471230439449/821476889167921202/graduation-hat-png.png" height="60" width="60"></h2>
+        <p class="lead">
+          Ensino Médio(2º grau)<br>
+          Colégio Irmã Maria Montenegro,CIMM,Brasil.<br>
+        </p>
+        <h2>2006-2012 <img src="https://cdn.discordapp.com/attachments/580898471230439449/821476889167921202/graduation-hat-png.png" height="60" width="60"></h2>
+        <p class="lead">
+          Ensino Fundamental(1º grau)<br>
+          Colégio Irmã Maria Montengro,CIMM,Brasil.<br>
+        </p>
+
+      </span>
      
-    <p class="lead"></p>
-    <p class="lead">
-      <a href="sobre.html" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Conhecer mais</a>
-    </p>
+    <div>
+      <h2>Certificados <img src="https://media.discordapp.net/attachments/580898471230439449/822088870807470110/03cd9607e714cc5f164db4041fae1b7b.png?width=1114&height=585" height="70" width="120"></h2>
+      <p class="lead">Inglês básico,intermediário e avançado. (Carga horária: 720h)<br>
+        Fisk Curso de Inglês,FISK,Brasil.
+      </p>
+
+    </div>
   </main>
 
   <footer class="mt-auto text-white-50">
